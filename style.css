@@ -139,5 +139,9 @@ footer h1 {
   margin-bottom: 0;
 }
 footer p a {
+  text-decoration: none;
+  color: white;
   padding-right: 15px;
 }
+
+/* footer end  */
