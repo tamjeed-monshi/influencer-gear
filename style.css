@@ -1,8 +1,11 @@
 body {
-  padding: 0 150px;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: blueviolet;
+  background-color: #f3f1ff;
+}
+
+.general-space {
+  padding: 50px 150px;
 }
 
 /* nav bar style  */
@@ -44,8 +47,9 @@ span a {
   margin-bottom: 20px;
 }
 .header-pg a {
+  color: white;
   text-decoration: none;
-  background-color: cadetblue;
+  background-color: #6867ac;
   border-radius: 41px;
   padding: 10px 24px;
 }
@@ -57,7 +61,7 @@ span a {
   font-weight: 600;
   font-size: 28px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .gears {
   display: grid;
@@ -70,8 +74,8 @@ span a {
   height: 500px;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px grey;
-  background-color: honeydew;
+  box-shadow: 8px 5px 5px grey;
+  background-color: white;
 }
 
 .gear h1,
@@ -103,5 +107,37 @@ p {
   text-decoration: none;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #6867ac;
+}
+
+/* Up comming product  */
+.new-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 70px 0 70px;
+}
+.product {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.product img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px grey;
+}
+
+/* footer  */
+footer {
+  color: white;
+  text-align: center;
+  background-color: #6867ac;
+  padding: 25px 0;
+}
+footer h1 {
+  margin-bottom: 0;
+}
+footer p a {
+  padding-right: 15px;
 }
