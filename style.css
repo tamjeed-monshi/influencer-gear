@@ -1,5 +1,5 @@
 body {
-  padding: 0 150px ;
+  padding: 0 150px;
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: blueviolet;
@@ -40,7 +40,7 @@ span a {
 .fa-arrow-right {
   padding: 10px;
 }
-.header-pg p{
+.header-pg p {
   margin-bottom: 20px;
 }
 .header-pg a {
@@ -48,7 +48,6 @@ span a {
   background-color: cadetblue;
   border-radius: 41px;
   padding: 10px 24px;
-  
 }
 
 /* 1st section style end */
@@ -70,7 +69,9 @@ span a {
   width: 300px;
   height: 500px;
   padding: 15px;
+  border-radius: 10px;
   box-shadow: 10px 5px 5px grey;
+  background-color: honeydew;
 }
 
 .gear h1,
@@ -93,12 +94,12 @@ p {
 }
 
 /* arrow  */
-.arrow{
+.arrow {
   display: flex;
   justify-content: flex-end;
   padding: 60px 80px 0px 0px;
 }
-.arrow a{
+.arrow a {
   text-decoration: none;
   font-size: 17px;
   font-weight: 700;
